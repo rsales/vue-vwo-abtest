@@ -1,4 +1,4 @@
-# 📦 @rsales/vue-vwo-abtest
+# 📦 @rsales93/vue-vwo-abtest
 
 > **Vue 3 composable for detecting VWO A/B test variations.**  
 > Lightweight, fast, and compatible with VWO SmartCode.
