@@ -1,4 +1,35 @@
 {
-  "name": "vue-vwo-abtest",
-  "packageManager": "yarn@4.9.1"
+  "name": "@rsales/vue-vwo-abtest",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "plugin",
+    "vwo",
+    "abtest",
+    "ab testing"
+  ],
+  "type": "module",
+  "packageManager": "yarn@4.9.1",
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "devDependencies": {
+    "vite": "^7.0.4"
+  },
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "yarn build"
+  },
+  "license": "MIT",
+  "author": "Rafael Sales <@rsales>"
 }

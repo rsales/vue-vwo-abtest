@@ -1,3 +1,4 @@
+# Node/Yarn
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -13,5 +14,19 @@ node_modules
 # In that case, don't forget to run `yarn config set enableGlobalCache false`!
 # Documentation here: https://yarnpkg.com/features/caching#zero-installs
 
-#!.yarn/cache
+# Node/Yarn
+!.yarn/cache
 .pnp.*
+
+# Builds
+dist/
+*.log
+
+# IDEs
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Env
+.env*
