@@ -19,7 +19,6 @@
     "ab testing"
   ],
   "type": "module",
-  "packageManager": "yarn@4.9.1",
   "peerDependencies": {
     "vue": "^3.2.0"
   },
@@ -28,7 +27,7 @@
   },
   "scripts": {
     "build": "vite build",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "npm run build"
   },
   "license": "MIT",
   "author": "Rafael Sales <@rsales>"

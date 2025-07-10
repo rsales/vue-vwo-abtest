@@ -18,9 +18,9 @@
 ## 📦 Installation
 
 ```bash
-yarn add @rsales/vue-vwo-abtest
+yarn add @rsales93/vue-vwo-abtest
 # or
-npm install @rsales/vue-vwo-abtest
+npm install @rsales93/vue-vwo-abtest
 ```
 
 ---
@@ -30,7 +30,7 @@ npm install @rsales/vue-vwo-abtest
 ### Basic Composable Usage
 
 ```ts
-import { useVwoVariation } from '@rsales/vue-vwo-abtest';
+import { useVwoVariation } from '@rsales93/vue-vwo-abtest';
 
 export default {
   setup() {
